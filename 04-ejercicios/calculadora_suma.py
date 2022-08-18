@@ -50,38 +50,38 @@
 
 #TODO Agregando mas operaciones
 
-# primero = input('Ingrese primer numero: ')
+primero = input('Ingrese primer numero: ')
 
-# try:
-#     primero = int(primero)
-# except:
-#     primero = ''
+try:
+    primero = int(primero)
+except:
+    primero = ''
     
-# if primero == '':
-#     print('El valor ingresado no es un entero')
-#     exit()
+if primero == '':
+    print('El valor ingresado no es un entero')
+    exit()
 
-# segundo = input('Ingrese segundo numero: ')
+segundo = input('Ingrese segundo numero: ')
 
-# try:
-#     segundo = int(segundo)
-# except:
-#     segundo = ''
+try:
+    segundo = int(segundo)
+except:
+    segundo = ''
     
-# if segundo == '':
-#     print('El valor ingresado no es un entero')
-#     exit()
+if segundo == '':
+    print('El valor ingresado no es un entero')
+    exit()
 
-# simbolo = input('Ingrese operacion: ')
+simbolo = input('Ingrese operacion: ')
 
-# if simbolo == '+':
-#     print('Suma:', primero + segundo)
-# elif simbolo == '-':
-#     print('Resta:', primero - segundo)
-# elif simbolo == '*':
-#     print('Multiplicacion', primero * segundo)
-# elif simbolo == '/':
-#     print('Division', primero / segundo)
-# else:
-#     print('El simbolo ingresado no es valido')
+if simbolo == '+':
+    print('Suma:', primero + segundo)
+elif simbolo == '-':
+    print('Resta:', primero - segundo)
+elif simbolo == '*':
+    print('Multiplicacion', primero * segundo)
+elif simbolo == '/':
+    print('Division', primero / segundo)
+else:
+    print('El simbolo ingresado no es valido')
     
