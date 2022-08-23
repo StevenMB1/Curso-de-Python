@@ -23,4 +23,3 @@ def nombreCompleto2(**kwargs):
     
 nombreCompleto2(nombre='Chanchito', apellido='Feliz')
 
- 
